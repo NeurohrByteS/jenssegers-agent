@@ -1,5 +1,5 @@
 {
-    "name": "asika/agent",
+    "name": "neurohrbytes/agent",
     "description": "Desktop/mobile user agent parser with support for Laravel, based on Mobiledetect",
     "keywords": ["laravel", "useragent", "agent", "user agent", "browser", "platform", "mobile", "desktop"],
     "homepage": "https://github.com/asika32764/agent",
@@ -14,6 +14,9 @@
             "homepage": "https://github.com/asika32764"
         }
     ],
+    "replace": {
+        "jenssegers/agent": "2.6.4"
+    },
     "require": {
         "php": ">=8.0",
         "mobiledetect/mobiledetectlib": "^4.0",

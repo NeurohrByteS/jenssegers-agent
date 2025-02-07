@@ -29,13 +29,13 @@ Laravel (optional)
 Add the service provider in `config/app.php`:
 
 ```php
-Asika\Agent\AgentServiceProvider::class,
+Jenssegers\Agent\AgentServiceProvider::class,
 ```
 
 And add the Agent alias to `config/app.php`:
 
 ```php
-'Agent' => Asika\Agent\Facades\Agent::class,
+'Agent' => Jenssegers\Agent\Facades\Agent::class,
 ```
 
 Basic Usage
@@ -44,7 +44,7 @@ Basic Usage
 Start by creating an `Agent` instance (or use the `Agent` Facade if you are using Laravel):
 
 ```php
-use Asika\Agent\Agent;
+use Jenssegers\Agent\Agent;
 
 $agent = new Agent();
 ```
